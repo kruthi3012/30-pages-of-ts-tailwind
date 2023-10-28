@@ -13,7 +13,15 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-    },
+      fontFamily: {
+        anaheim: ['Anaheim', 'sans'],
+        'roboto-mono': ['Roboto Mono', 'monospace'],
+        inter: ['Inter', 'sans']
+      },
+      fontWeight: {
+        'roboto-mono-300': 300,
+        'roboto-mono-500' : 500,
+      },    
   },
   plugins: [],
 }
