@@ -1,0 +1,30 @@
+
+.button-color {
+  background-color: black;
+  color: #fff; 
+  border-color: white;
+}
+
+.animate-float-up {
+  animation: float-up 50s linear infinite;
+}
+
+@keyframes float-up {
+  0%{
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-150%);
+  }
+}
+
+.infinite-carousel {
+  animation: float-up 50s linear infinite;
+  display: flex;
+  flex-direction: column;
+  height: 200%;
+  transform-origin: top center;
+}
+
+
+

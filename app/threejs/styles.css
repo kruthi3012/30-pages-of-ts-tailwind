@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+  background-color: white;
+  color: black;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.webgl{
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+html,body{
+  overflow: hidden;
+}
